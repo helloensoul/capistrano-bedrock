@@ -31,7 +31,7 @@ The `Gemfile` in the root of this repo specifies the required Gems (just like `c
 4. Copy the following `capistrano-bedrock` files/folders into your `config` directory:
   * `config/deploy/*`
   * `config/deploy.rb`
-5. Run `gem install bundler -v "~>1.12.0" && bundle` into the root of your Bedrock project.
+5. Run `gem install bundler -v "~>1.12" && bundle` into the root of your Bedrock project.
 6. Edit your `config/deploy.rb` [configs](https://github.com/itsensoul/capistrano-trellis-bedrock-wpcli#configurationanchor) to set the roles/servers and connection options.
 7. Edit your `config/deploy/*` stage/environment [configs](https://github.com/itsensoul/capistrano-trellis-bedrock-wpcli#configurationanchor) to set the specific roles/servers and connection options.
 8. Enjoy `capistrano-trellis-bedrock-wpcli` [Tasks](#tasksanchor).

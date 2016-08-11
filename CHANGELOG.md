@@ -1,3 +1,6 @@
+### HEAD
+* Update README.md
+
 ### 0.0.1: August 11th, 2016
 * Rename gem from bedrock-capistrano to capistrano-bedrock
 * Update LICENSE.md
