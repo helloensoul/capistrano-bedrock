@@ -26,6 +26,7 @@ The `Gemfile` in the root of this repo specifies the required Gems (just like `c
   * `Gemfile.lock`
   * `database.sh`
   * `uploads.sh`
+  * `VERSION.md` (to know which version of `capistrano-bedrock` are you using)
 3. Copy the content of `capistrano-bedrock .gitignore` file into the `.gitignore` file of your Bedrock project.
 4. Copy the following `capistrano-bedrock` files/folders into your `config` directory:
   * `config/deploy/*`

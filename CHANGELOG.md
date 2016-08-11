@@ -3,3 +3,4 @@
 * Update LICENSE.md
 * Remove support for standard deploys
 * Add support and default options for capistrano-trellis-bedrock-wpcli
+* Add VERSION.md file
