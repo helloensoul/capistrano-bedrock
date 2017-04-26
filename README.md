@@ -10,8 +10,8 @@ These are the Capistrano configs for deploying uploads and database with [Bedroc
 
 Required Gems:
 
-* `capistrano` (~> 3.6)
-* `capistrano-trellis-bedrock-wpcli` (0.0.2)
+* `capistrano` (~> 3.6.0)
+* `capistrano-trellis-bedrock-wpcli` (~> 1.0.0)
 
 These can be installed manually with `gem install <gem name>` but it's highly suggested you use [Bundler](http://bundler.io/) to manage them. Bundler is basically the Ruby equivalent to PHP's Composer. Just as Composer manages your PHP packages/dependencies, Bundler manages your Ruby gems/dependencies. Bundler itself is a Gem and can be installed via `gem install bundler` (sudo may be required).
 
@@ -31,7 +31,7 @@ The `Gemfile` in the root of this repo specifies the required Gems (just like `c
 4. Copy the following `capistrano-bedrock` files/folders into your `config` directory:
   * `config/deploy/*`
   * `config/deploy.rb`
-5. Run `gem install bundler -v "~>1.12" && bundle` into the root of your Bedrock project.
+5. Run `gem install bundler -v "~>1.12.0" && bundle` into the root of your Bedrock project.
 6. Edit your `config/deploy.rb` [configs](https://github.com/itsensoul/capistrano-trellis-bedrock-wpcli#configurationanchor) to set the roles/servers and connection options.
 7. Edit your `config/deploy/*` stage/environment [configs](https://github.com/itsensoul/capistrano-trellis-bedrock-wpcli#configurationanchor) to set the specific roles/servers and connection options.
 8. Enjoy `capistrano-trellis-bedrock-wpcli` [Tasks](#tasksanchor).
