@@ -1,5 +1,7 @@
 # Capistrano::Bedrock
 
+## THIS PROJECT IS NOT MAINTAINED ANYMORE, see [valentinocossar/trellis-database-and-uploads-migration](https://github.com/valentinocossar/trellis-database-and-uploads-migration)
+
 **This project is based on [bedrock-capistrano](https://github.com/roots/bedrock-capistrano) and works only with Trellis and Bedrock.**
 
 These are the Capistrano configs for deploying uploads and database with [Bedrock](https://github.com/roots/bedrock) using [capistrano-trellis-bedrock-wpcli](https://github.com/itsensoul/capistrano-trellis-bedrock-wpcli).
@@ -41,7 +43,7 @@ The `Gemfile` in the root of this repo specifies the required Gems (just like `c
 <a name="tasksanchor"></a>
 ### Tasks
 
-####1. Manage database
+#### 1. Manage database
 
 * `./database.sh staging/production push` or `bundle exec cap staging/production wpcli:db:push` - Pushes the local WordPress database to the remote server and replaces the urls (Optionally backs up the remote database before pushing, only if `wpcli_backup_db` is set to true, see [Configuration](https://github.com/itsensoul/capistrano-trellis-bedrock-wpcli#configurationanchor))
 
@@ -51,7 +53,7 @@ The `Gemfile` in the root of this repo specifies the required Gems (just like `c
 
 * `./database.sh development backup` or `bundle exec cap development wpcli:db:backup:local` - Backs up local vagrant database (uses `wpcli_local_db_backup_dir` to define the location of the export)
 
-####2. Manage updates
+#### 2. Manage updates
 
 * `./uploads.sh staging/production push` or `bundle exec cap staging/production wpcli:uploads:rsync:push` - Pushes the local uploads delta to remote machine using rsync.
 
