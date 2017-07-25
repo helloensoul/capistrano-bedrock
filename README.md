@@ -1,6 +1,6 @@
 # Capistrano::Bedrock
 
-## THIS PROJECT IS NOT MAINTAINED ANYMORE, see [valentinocossar/trellis-database-and-uploads-migration](https://github.com/valentinocossar/trellis-database-and-uploads-migration)
+## THIS PROJECT IS NOT MAINTAINED ANYMORE, see [valentinocossar/trellis-database-uploads-migration](https://github.com/valentinocossar/trellis-database-uploads-migration)
 
 **This project is based on [bedrock-capistrano](https://github.com/roots/bedrock-capistrano) and works only with Trellis and Bedrock.**
 
